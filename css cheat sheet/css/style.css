@@ -1,0 +1,115 @@
+body{
+	background: #f4f4f4;
+	color: #555555;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border: 5px red solid;
+	border-width: 3px;
+	border-top width: 10px;
+	border-bottom-style:dotted;
+
+	padding: 20px;
+}
+
+.box-2{
+	border: 5px solid #ccc;
+	padding: 20px;
+	margin: 20px;
+}
+.categories {
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	color: red;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+}
+.my-form{
+	padding: 20px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+.my-form input[type="Email"]{
+	padding: 8px;
+	width: 100%;
+}
+.button{
+	background-color: #333;
+	padding: 10px 15px;
+	color: #fff;
+	border: none;
+
+}
+
+.block{
+	float: left;
+	width: 30%;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.button:hover{
+	background-color: red;
+	color: #fff;
+}
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url('../images/p.jpeg');
+	background-position: 100px 200px;
+	background-position: center center;
+}
+.p-box h1{
+	position: absolute;
+	top: 40px;
+
+}
+.fix-me{
+	position: fixed;
+	top:40px;
+}
+.my-box li:first-child{
+	background: red;
+}
+.my-box li:nth-child(even){
+	background: grey;
+}

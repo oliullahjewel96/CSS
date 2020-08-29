@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper >div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+</head>
+<body>
+      <div class="wrapper">
+          <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro alias, ducimus numquam modi fugit cupiditate id exercitationem qui ea magni nihil unde temporibus dolores. Voluptatibus ipsa eos quaerat commodi culpa?
+
+          </div>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, eos fugiat sunt debitis unde mollitia temporibus velit reiciendis doloremque aliquam suscipit voluptatem hic in commodi assumenda beatae nesciunt earum quidem.</div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro alias, ducimus numquam modi fugit cupiditate id exercitationem qui ea magni nihil unde temporibus dolores. Voluptatibus ipsa eos quaerat commodi culpa?
+
+        </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, eos fugiat sunt debitis unde mollitia temporibus velit reiciendis doloremque aliquam suscipit voluptatem hic in commodi assumenda beatae nesciunt earum quidem.</div>
+        
+      </div>
+</body>
+</html>
