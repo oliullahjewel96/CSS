@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 2s, height 4s,transform 2s;
+        }
+        div:hover{
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+            
+        }
+        #ease{
+            transition-timing-function: ease;
+        }
+        #linear{
+            transition-timing-function: linear;
+        }
+        #ease-in{
+            transition-timing-function: ease-in;
+        }
+        #ease-out{
+            transition-timing-function: ease-out;
+        }
+        #ease-in-out{
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+</head>
+<body>
+    
+<h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div></div>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+<div id="ease">ease</div><br>
+<div id="linear">linear</div><br>
+<div id="ease-in">ease-in</div><br>
+<div class="ease-out">ease-out</div><br>
+<div class="ease-in-out">ease-in-out</div><br>
+
+<h1>Transition + Transform</h1>
+
+<p>Hover over the div element below:</p>
+
+<div></div>
+
+
+</body>
+</html>
