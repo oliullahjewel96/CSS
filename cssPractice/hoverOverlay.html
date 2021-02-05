@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+        .image{
+            display: block;
+            height:300px;
+            width: 300px;
+        }
+        .overlay{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #008CBA;
+
+        }
+        .container:hover .overlay {
+            opacity: 1;
+        }
+        .text{
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image hover overlay</title>
+</head>
+<body>
+    <h2>Fade in Overlay</h2>
+
+<div class="container">
+  <img src="71DyK30FYrL._SL1500_.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+</body>
+</html>
